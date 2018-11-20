@@ -1,13 +1,13 @@
 {
   "main.css": "/test_grotem/static/css/main.4fd2825d.chunk.css",
-  "main.js": "/test_grotem/static/js/main.dca46269.chunk.js",
-  "main.js.map": "/test_grotem/static/js/main.dca46269.chunk.js.map",
+  "main.js": "/test_grotem/static/js/main.b4a7ed91.chunk.js",
+  "main.js.map": "/test_grotem/static/js/main.b4a7ed91.chunk.js.map",
   "static/js/1.20bc491b.chunk.js": "/test_grotem/static/js/1.20bc491b.chunk.js",
   "static/js/1.20bc491b.chunk.js.map": "/test_grotem/static/js/1.20bc491b.chunk.js.map",
   "runtime~main.js": "/test_grotem/static/js/runtime~main.128437bc.js",
   "runtime~main.js.map": "/test_grotem/static/js/runtime~main.128437bc.js.map",
   "static/css/main.4fd2825d.chunk.css.map": "/test_grotem/static/css/main.4fd2825d.chunk.css.map",
   "index.html": "/test_grotem/index.html",
-  "precache-manifest.44413621d06bd71115ee63e58fd91df1.js": "/test_grotem/precache-manifest.44413621d06bd71115ee63e58fd91df1.js",
+  "precache-manifest.142182c38034bfc5eea5dc8e52fa3eb5.js": "/test_grotem/precache-manifest.142182c38034bfc5eea5dc8e52fa3eb5.js",
   "service-worker.js": "/test_grotem/service-worker.js"
 }
