@@ -10,7 +10,6 @@ class ProductTable extends Component {
             isOrdered: false
         };
         this.addToBasket = this.addToBasket.bind(this);
-        this.resetProducts = this.resetProducts.bind(this);
 
     }
 

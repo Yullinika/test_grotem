@@ -2,7 +2,7 @@
   "name": "test_grotem",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://Yullinika.github.io/test_grotem",
+  "homepage": "http://yullinika.github.io/test_grotem",
   "dependencies": {
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
