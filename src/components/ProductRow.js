@@ -3,20 +3,16 @@ import React, {Component} from 'react';
 class ProductRow extends Component {
     constructor() {
         super();
-        this.state = {
-            isChecked: false
-        };
+        this.isChecked = false;
         this.checkedItem = this.checkedItem.bind(this);
     }
 
     checkedItem = function () {
-        this.setState({
-            isChecked: !this.state.isChecked
-        });
+        this.isChecked = !this.isChecked;
     };
 
     render() {
-        if (this.state.isChecked && this.props.toBasket) {
+        if (this.isChecked && this.props.toBasket) {
             return null;
         } else {
             let row = <tr>

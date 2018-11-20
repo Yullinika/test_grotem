@@ -10,14 +10,12 @@ class ProductTable extends Component {
             isOrdered: false
         };
         this.addToBasket = this.addToBasket.bind(this);
-
     }
 
     addToBasket = function () {
         this.setState({
             isOrdered: true
         });
-        this.forceUpdate();
     };
 
     componentDidMount() {
@@ -29,7 +27,6 @@ class ProductTable extends Component {
                         isLoad: true,
                         price_list: Object.values(result)
                     });
-                    console.log(result);
                 }
             );
 
@@ -40,6 +37,7 @@ class ProductTable extends Component {
         if (!this.state.isLoad) {
             return <div>Loading...</div>
         } else {
+
             let row_list = this.state.price_list.map(function (item) {
                 let list = Object.values(item.skus).map(product =>
                     <ProductRow nameCategory={item.group.name}
